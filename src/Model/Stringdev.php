@@ -1,8 +1,11 @@
 <?php
 
-namespace src\Model;
+namespace Model;
 
 class Stringdev{
+
+
+    public function __construct(){}
 
     public function concat($str1, $str2){
         return $strcat = $str1 . $str2;
